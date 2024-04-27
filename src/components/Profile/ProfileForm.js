@@ -12,7 +12,7 @@ const ProfileForm = () => {
 
   useEffect(() => {
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyAKIrkFyABATGzL5ckzp767SwuRdsPGxMw",
+      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyCprTZVW6b9fM51Dp_WL5C-T5yTGXa7t9s",
       {
         method: "POST",
         headers: {
@@ -47,7 +47,7 @@ const ProfileForm = () => {
     const enteredPhotoURL = profileUrlInputRef.current.value;
 
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyCprTZVW6b9fM51Dp_WL5C-T5yTGXa7t9s",
+      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyAKIrkFyABATGzL5ckzp767SwuRdsPGxMw",
       {
         method: "POST",
         headers: {
