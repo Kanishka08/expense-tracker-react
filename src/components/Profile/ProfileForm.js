@@ -43,6 +43,7 @@ const ProfileForm = () => {
   const updateProfile = (event) => {
     event.preventDefault();
 
+    
     const enteredName = fullNameInputRef.current.value;
     const enteredPhotoURL = profileUrlInputRef.current.value;
 
