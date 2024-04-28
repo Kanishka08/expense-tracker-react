@@ -12,7 +12,7 @@ const ProfileForm = () => {
 
   useEffect(() => {
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyCprTZVW6b9fM51Dp_WL5C-T5yTGXa7t9s",
+      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyAKIrkFyABATGzL5ckzp767SwuRdsPGxMw",
       {
         method: "POST",
         headers: {
@@ -43,7 +43,6 @@ const ProfileForm = () => {
   const updateProfile = (event) => {
     event.preventDefault();
 
-    
     const enteredName = fullNameInputRef.current.value;
     const enteredPhotoURL = profileUrlInputRef.current.value;
 
