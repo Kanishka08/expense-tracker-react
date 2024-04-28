@@ -8,10 +8,10 @@ const ExpenseList = (props) => {
         <p className="no-expenses">No expenses added yet.</p>
       ) : (
         <ul className="expenses-list">
-          {props.expenses.map((expenses, index) => (
+          {props.expenses.map((expense, index) => (
             <li key={index} className="expense-item">
-              Money Spent: {expenses.moneySpent} <br></br> Description:
-              {expenses.description} <br></br> Category: {expenses.category}
+              Money Spent: {expense.moneySpent} <br></br> Description:{" "}
+              {expense.description} <br></br> Category: {expense.category}
             </li>
           ))}
         </ul>
