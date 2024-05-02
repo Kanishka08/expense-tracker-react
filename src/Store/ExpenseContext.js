@@ -21,7 +21,8 @@ export const ExpenseContextProvider = (props) => {
     userEmail = userEmail.replace(/[^a-zA-Z0-9]/g, "");
   }
 
-  const api = "https://expense-tracker-33b77-default-rtdb.firebaseio.com/";
+  const api =
+    "https://expense-tracker-33b77-default-rtdb.firebaseio.com/expense";
 
   const fetchExpenseHandler = async () => {
     if (userEmail) {
